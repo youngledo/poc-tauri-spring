@@ -1,0 +1,18 @@
+# 后端构建产物
+backend/target/
+backend/.mvn/
+
+# Tauri 构建产物
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# 日志
+*.log
