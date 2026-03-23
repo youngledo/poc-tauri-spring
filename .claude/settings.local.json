@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./build.sh)",
+      "Bash(sudo rm:*)",
+      "Bash(find /Users/huangxiao/Workspace/mine/poc-tauri-spring -type f -name *.md -o -name *.sh -o -name *.json -o -name *.toml -o -name *.rs -o -name *.java -o -name *.html -o -name *.js -o -name *.yml -o -name *.xml)",
+      "Bash(find /Users/huangxiao/Workspace/mine/poc-tauri-spring -name \".DS_Store\" -delete)"
+    ]
+  }
+}

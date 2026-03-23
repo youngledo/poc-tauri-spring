@@ -1,6 +1,0 @@
-注意：这里需要一个实际的 PNG 图标���件。
-你可以使用任何 PNG 图片，或者使用在线工具生成一个简单的图标��
-将图标命名为 icon.png 并放在此目录下。
-
-临时解决方案：可以从你的主项目复制一个图标：
-cp /Users/huangxiao/IdeaProjects/mysoft/mystudio_app/src/main/resources/static/logo.png /Users/huangxiao/IdeaProjects/experimental/poc-tauri-spring/src-tauri/icons/icon.png

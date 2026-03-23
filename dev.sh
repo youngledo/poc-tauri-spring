@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Tauri + Spring Boot POC - 开发���行脚本
+# Tauri + Spring Boot POC - 开发运行脚本
 
 set -e
 
@@ -15,7 +15,7 @@ if [ ! -f "backend/target/src-spring.jar" ]; then
     echo "✅ Spring Boot 后端构建完成"
 fi
 
-# 2. 启动 Tauri ��发模式
+# 2. 启动 Tauri 开发模式
 echo ""
 echo "🔧 启动 Tauri 开发模式..."
 echo "   - 后端会自动启动在 http://localhost:8080"
@@ -24,12 +24,10 @@ echo ""
 
 cd src-tauri
 
-# 方式 1: 使用全局 tauri-cli (如果已安装)
+# 使用全局 tauri-cli (如果已安装)
 if command -v cargo-tauri &> /dev/null; then
-    echo "使用全局 Tauri CLI..."
     cargo tauri dev
 else
-    echo "全局 Tauri CLI 未安装，使用 cargo run (开发模式)..."
-    # 方式 2: 直接使用 cargo run (不需要 tauri-cli)
+    echo "未安装 tauri-cli，使用 cargo run..."
     cargo run
 fi

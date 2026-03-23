@@ -16,7 +16,8 @@ echo "✅ Spring Boot 后端构建完成"
 # 2. 构建 Tauri 应用
 echo ""
 echo "📦 步骤 2/2: 构建 Tauri 应用..."
-cd ../src-tauri
+cd ..
+cd src-tauri
 cargo build --release
 echo "✅ Tauri 应用构建完成"
 

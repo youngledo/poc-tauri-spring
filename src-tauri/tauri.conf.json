@@ -29,8 +29,7 @@
       "icons/icon.png"
     ],
     "resources": [
-      "../backend/target/src-spring.jar",
-      "../backend/target/src-spring"
+      "../backend/target/*.jar"
     ],
     "macOS": {
       "minimumSystemVersion": "10.15",

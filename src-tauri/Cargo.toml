@@ -7,10 +7,6 @@ license = ""
 repository = ""
 edition = "2021"
 
-[lib]
-name = "tauri_spring_poc_lib"
-crate-type = ["staticlib", "cdylib", "rlib"]
-
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
 
